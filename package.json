@@ -1,0 +1,25 @@
+{
+  "name": "candidate_search_dashboard",
+  "version": "1.0.0",
+  "description": "dashboard",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NBDelpino1/candidate_search_dashboard.git"
+  },
+  "author": "nick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NBDelpino1/candidate_search_dashboard/issues"
+  },
+  "homepage": "https://github.com/NBDelpino1/candidate_search_dashboard#readme"
+}

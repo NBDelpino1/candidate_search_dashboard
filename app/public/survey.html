@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <!-- Chosen jQuery Plugin (Make selects easier to manage) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link href="css/custom-styles.css" rel="stylesheet">
+
+    <title>Hello, world!</title>
+</head>
+<body>
+
+    <!-- Top Navbar -->
+
+    <nav class="navbar navbar-top">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo.svg" class="d-inline-block align-top responsive-img" alt="">
+        </a>
+        <div id="navbar-icons-wrapper">
+            <img src="images/chat.svg" class="navbar-icon" alt="chat icon">
+            <img src="images/calender.svg" class="navbar-icon" alt="calender icon">
+            <img src="images/user.svg" class="navbar-icon" alt="user icon">
+        </div>
+    </nav>
+
+    <!-- Bottom Navbar -->
+
+    <nav class="navbar navbar-bottom sticky-top navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">My Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">My Saved</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn xs-button my-2 my-sm-0" type="submit"><img src="images/search-icon.svg"></button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+
+    <div class="container">
+        <div class="row">
+
+            <!-- COL QUESTIONS -->
+
+            <div class="col-sm-4" id="skillset-col">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-body-heading">Skillset Levels</h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <p>HTML</p>
+                        <!-- * Numbers associated with user choice || id associated with question number-->
+                        <select data-placeholder="" class="chosen-select" id="q1">
+                            <option value=""></option>
+                            <option value="1"> 0 - 1 year </option>
+                            <option value="2"> 1 - 2 years </option>
+                            <option value="3"> 2 - 3 years </option>
+                            <option value="4"> 3 - 4 years</option>
+                            <option value="5"> 5 years or more</option>
+                        </select>
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <p>CSS</p>
+                        <!-- * Numbers associated with user choice || id associated with question number-->
+                        <select data-placeholder="" class="chosen-select" id="q2">
+                            <option value=""></option>
+                            <option value="1"> 0 - 1 year </option>
+                            <option value="2"> 1 - 2 years </option>
+                            <option value="3"> 2 - 3 years </option>
+                            <option value="4"> 3 - 4 years</option>
+                            <option value="5"> 5 years or more</option>
+                        </select>
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <p>Responsive Design</p>
+                        <!-- * Numbers associated with user choice || id associated with question number-->
+                        <select data-placeholder="" class="chosen-select" id="q3">
+                            <option value=""></option>
+                            <option value="1"> 0 - 1 year </option>
+                            <option value="2"> 1 - 2 years </option>
+                            <option value="3"> 2 - 3 years </option>
+                            <option value="4"> 3 - 4 years</option>
+                            <option value="5"> 5 years or more</option>
+                        </select>
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <p>Bootstrap</p>
+                        <!-- * Numbers associated with user choice || id associated with question number-->
+                        <select data-placeholder="" class="chosen-select" id="q4">
+                            <option value=""></option>
+                            <option value="1"> 0 - 1 year </option>
+                            <option value="2"> 1 - 2 years </option>
+                            <option value="3"> 2 - 3 years </option>
+                            <option value="4"> 3 - 4 years</option>
+                            <option value="5"> 5 years or more</option>
+                        </select>
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <p>React JS</p>
+                        <!-- * Numbers associated with user choice || id associated with question number-->
+                        <select data-placeholder="" class="chosen-select" id="q5">
+                            <option value=""></option>
+                            <option value="1"> 0 - 1 year </option>
+                            <option value="2"> 1 - 2 years </option>
+                            <option value="3"> 2 - 3 years </option>
+                            <option value="4"> 3 - 4 years</option>
+                            <option value="5"> 5 years or more</option>
+                        </select>
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <p>Angular JS</p>
+                        <!-- * Numbers associated with user choice || id associated with question number-->
+                        <select data-placeholder="" class="chosen-select" id="q6">
+                            <option value=""></option>
+                            <option value="1"> 0 - 1 year </option>
+                            <option value="2"> 1 - 2 years </option>
+                            <option value="3"> 2 - 3 years </option>
+                            <option value="4"> 3 - 4 years</option>
+                            <option value="5"> 5 years or more</option>
+                        </select>
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <p>Wireframing</p>
+                        <!-- * Numbers associated with user choice || id associated with question number-->
+                        <select data-placeholder="" class="chosen-select" id="q7">
+                            <option value=""></option>
+                            <option value="1"> 0 - 1 year </option>
+                            <option value="2"> 1 - 2 years </option>
+                            <option value="3"> 2 - 3 years </option>
+                            <option value="4"> 3 - 4 years</option>
+                            <option value="5"> 5 years or more</option>
+                        </select>
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <p>Prototyping</p>
+                        <!-- * Numbers associated with user choice || id associated with question number-->
+                        <select data-placeholder="" class="chosen-select" id="q8">
+                            <option value=""></option>
+                            <option value="1"> 0 - 1 year </option>
+                            <option value="2"> 1 - 2 years </option>
+                            <option value="3"> 2 - 3 years </option>
+                            <option value="4"> 3 - 4 years</option>
+                            <option value="5"> 5 years or more</option>
+                        </select>
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <p>User Research</p>
+                        <!-- * Numbers associated with user choice || id associated with question number-->
+                        <select data-placeholder="" class="chosen-select" id="q9">
+                            <option value=""></option>
+                            <option value="1"> 0 - 1 year </option>
+                            <option value="2"> 1 - 2 years </option>
+                            <option value="3"> 2 - 3 years </option>
+                            <option value="4"> 3 - 4 years</option>
+                            <option value="5"> 5 years or more</option>
+                        </select>
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <p>Sketch App</p>
+                        <!-- * Numbers associated with user choice || id associated with question number-->
+                        <select data-placeholder="" class="chosen-select" id="q10">
+                            <option value=""></option>
+                            <option value="1"> 0 - 1 year </option>
+                            <option value="2"> 1 - 2 years </option>
+                            <option value="3"> 2 - 3 years </option>
+                            <option value="4"> 3 - 4 years</option>
+                            <option value="5"> 5 years or more</option>
+                        </select>
+                    </div>
+                    <hr>
+                </div>
+
+                <button type="submit" class="btn lg-button" id="submit">
+                    <!--TODO <img src="img/arrow-forward-light.svg" class="display-inline-block">-->Submit
+                </button>
+
+            </div>
+
+            <!-- COL CANDIDATE INFO -->
+
+            <div class="col-sm-4">
+              <div class="candidate-info-wrapper">
+                  <div class="card">
+                      <div class="card-body">
+                          <h4 class="card-body-heading">Candidate Info</h4>
+                      </div>
+                  </div>
+
+                  <div class="card">
+                      <img class="card-img-top" id="matchImg" src="images/user-template.png " alt="Card image cap">
+                      <div class="card-body card-body-candidate-info-wrapper">
+                          <h5 class="card-title" id="matchName"></h5>
+                          <p class="card-text"><span class="card-body-candidate-info-lg-text">Name: </span>Nicholas Delpino</p>
+                          <p class="card-text"><span class="card-body-candidate-info-lg-text">Address: </span>Ocoee, FL</p>
+                          <p class="card-text"><span class="card-body-candidate-info-lg-text">Email: </span>nbdelpino1@yahoo.com</p>
+                          <p class="card-text"><span class="card-body-candidate-info-lg-text">Phone: </span>407-907-9712</p>
+                          <p class="card-text"><span class="card-body-candidate-info-lg-text">Willing to relocate?: </span>Yes</p>
+                          <a href="#" class="btn lg-button">Save</a>
+                          <a href="#" class="btn sm-button"><img src="images/phone-icon.svg"></a>
+                          <a href="#" class="btn sm-button"><img src="images/email-icon.svg"></a>
+
+                      </div>
+                  </div>
+              </div>
+            </div>
+
+            <!-- TODO: COL REVIEWS ???? NEED TO DECIDE IF INCLUDING A REVIEWS COLUMN - MAKE SURE TO CHANGE THE COL SIZING IF SO -->
+
+            <!--<div class="col-sm-4">-->
+                <!--<div class="card">-->
+                    <!--<div class="card-body">-->
+                        <!--<h4 class="card-body-heading">Reviews</h4>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+                <!--<div class="media">-->
+                    <!--<img class="mr-3" src="img/images/oval.png" alt="Generic placeholder image">-->
+                    <!--<div class="media-body">-->
+                        <!--<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="star-rating-container text-right">-->
+                    <!--<img class="responsive-img" src="img/images/star.png">-->
+                    <!--<img class="responsive-img" src="img/images/star.png">-->
+                    <!--<img class="responsive-img" src="img/images/star.png">-->
+                    <!--<img class="responsive-img" src="img/images/star.png">-->
+                <!--</div>-->
+            <!--</div>-->
+
+            <!-- COL SIGN UP -->
+
+            <div class="col-sm-4">
+                <form>
+
+                    <h4>Sign In</h4>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="firstName" class="sr-only">First Name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="First name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="lastName" class="sr-only">First Name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="mobileOrEmail" class="sr-only">Mobile number or email</label>
+                        <input type="text" class="form-control" id="mobileOrEmail" placeholder="Mobile number or email">
+                    </div>
+                    <div class="form-group">
+                        <label for="newPassword" class="sr-only">Password</label>
+                        <input type="password" class="form-control" id="newPassword" placeholder="Password">
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Employer</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Freelancer</label>
+                    </div>
+                    <button type="submit" class="btn" id="signin-button">Sign in</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <!--TODO: NEED TO REFACTOR THIS, ITS THE MODAL THAT POPS UP TO ALERT USER THEY NED TO FILL OUT ALL THE FIELDS-->
+    <!-- Modal 2-->
+
+    <div id="alertModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content alert-modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3>Please fill out everything before submitting!</h3>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn modalbutton" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<!-- Optional JavaScript -->
+<!-- Latest compiled and minified CSS & JS -->
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<!-- Chosen jQuery Plugin (Make selects easier to manage) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+
+<!-- My Scripts -->
+<script src="./app.js"></script>
+
+</body>
+</html>
