@@ -26,6 +26,11 @@
         <a class="navbar-brand" href="#">
             <img src="images/logo.svg" class="d-inline-block align-top responsive-img" alt="">
         </a>
+        <a class="nav-link" href="#">Jobs</a>
+        <a class="nav-link" href="#">Company Reviews</a>
+        <a class="nav-link" href="#">Salaries</a>
+        <a class="nav-link" href="#">Interviews</a>
+        <a class="nav-link" href="#">Know Your Worth</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -64,8 +69,10 @@
         </div>
     </div>
 
+    <!-- Page Content -->
 
-     <div class="container filter-container">
+    <div class="container content-wrapper">
+     <!--<div class="container filter-container">-->
          <div class="dropdown custom-dropdown">
              <button class="btn btn-secondary dropdown-toggle custom-dropdown-button" type="button" id="job-type" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                  Employment Type
@@ -83,10 +90,10 @@
              <button class="btn btn-secondary dropdown-toggle custom-dropdown-button" type="button" id="salary-range" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                  Salary Range
              </button>
-             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+             <div class="dropdown-menu dropdown-item-large" aria-labelledby="dropdownMenuButton">
                  <div class="slidecontainer">
                      <input type="range" min="1" max="100000" value="50" class="slider" id="myRange">
-                     <p>Value: $<span id="demo"></span></p>
+                     <p>Pay: $<span id="demo"></span></p>
                  </div>
              </div>
          </div>
@@ -103,12 +110,10 @@
                  <a class="dropdown-item" href="#">50 Miles</a>
              </div>
          </div>
-     </div>
+     <!--</div>-->
 
 
-    <!-- Page Content -->
 
-    <div class="container">
         <div class="row">
 
             <!-- COL QUESTIONS -->
@@ -335,6 +340,7 @@
                 <form>
 
                     <h4 class="card-body-heading">Sign In</h4>
+                    <br>
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label for="firstName" class="sr-only">First Name</label>
