@@ -1,15 +1,13 @@
 
-<svg width="137px" height="50px" viewBox="0 0 137 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="147px" height="40px" viewBox="0 0 147 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-12">
-            <polygon id="Rectangle-8" fill="#243641" points="33.1221157 0.0402684564 128.586663 0.0402684564 95.4645477 44 0 44"></polygon>
-            <polygon id="Rectangle-8" fill="#E21212" points="41.1221157 6.04026846 136.586663 6.04026846 103.464548 50 8 50"></polygon>
-            <text id="Talent-Pool" font-family="HiraKakuStd-W8, Hiragino Kaku Gothic Std" font-size="16.1073826" font-weight="600" letter-spacing="0.247805911" fill="#FFFFFF">
-                <tspan x="47" y="26.0402685">Talent </tspan>
-                <tspan x="47" y="42.0402685">Pool</tspan>
+            <rect id="Rectangle-9" fill="#FFFFFF" x="0" y="0" width="147" height="40"></rect>
+            <text id="talentpool" font-family="HiraKakuStd-W8, Hiragino Kaku Gothic Std" font-size="24" font-weight="600" letter-spacing="0.3692308" fill="#0BAA41">
+                <tspan x="0" y="29">talentpool</tspan>
             </text>
         </g>
     </g>

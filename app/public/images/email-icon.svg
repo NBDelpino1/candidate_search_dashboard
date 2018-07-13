@@ -4,7 +4,7 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-15" fill="#0277B5" fill-rule="nonzero">
+        <g id="Group-13" fill="#FFFFFF" fill-rule="nonzero">
             <path d="M14,14 L10.536,10.968 L0.632,19.458 C0.992,19.792 1.478,20 2.014,20 L25.986,20 C26.52,20 27.004,19.792 27.362,19.458 L17.464,10.968 L14,14 Z" id="Shape"></path>
             <path d="M27.368,0.542 C27.008,0.206 26.524,0 25.986,0 L2.014,0 C1.48,0 0.996,0.208 0.636,0.546 L14,12 L27.368,0.542 Z" id="Shape"></path>
             <polygon id="Shape" points="0 1.756 0 18.372 9.666 10.158"></polygon>
