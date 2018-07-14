@@ -11,8 +11,12 @@
     <!-- Chosen jQuery Plugin (Make selects easier to manage) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:700" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:700" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
 
     <!-- Custom Styles -->
     <link href="css/app-styles.css" rel="stylesheet">
@@ -21,7 +25,7 @@
 </head>
 <body>
 
-    <!-- Top Navbar -->
+    <!-- Landing Page Navbar -->
 
     <nav class="navbar navbar-top">
         <a class="navbar-brand" href="#">
@@ -29,135 +33,173 @@
         </a>
     </nav>
 
-    <!-- Page Content -->
+    <!-- Landing Page Content -->
 
-    <!--<div class="landing-wrapper">-->
-        <!--<div class="row">-->
-            <!--<div class="col-sm-6">-->
-                <!--<h1 class="display-4">Find the talent to help support your business</h1>-->
-                <!--<a href="/survey" class="btn" id="cta-button" role="button" aria-pressed="true">Get Started</a>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
+    <div class="main-landing-wrapper">
 
+        <!-- FORM -------------------------------------------------------------------- -->
+        <div class="form-wrapper-xl shadow-sm">
+            <form>
+                <h4 class="card-body-heading">Sign In to Talentpool</h4>
+                <br><!--TODO: REMOVE THIS SILLY <BR> AND PUT SOME PROPER MARGIN ON THIS ELEMENT-->
+                <p>By continuing, you agree to our <a href="">Terms of Use</a> and <a href="">Privacy Policy</a>.</p>
 
+                <a href="/survey" class="btn btn-block text-white" id="facebook-login-button" role="button" aria-pressed="true">
+                    <img src="images/button-icons/facebook-button-icon.png" class="button-icon-left">
+                    Sign In with Facebook
+                </a>
+                <a href="/survey" class="btn btn-block" id="google-login-button" role="button" aria-pressed="true">
+                    <img src="images/button-icons/google-button-icon.png" class="button-icon-left">
+                    Sign In with Google
+                </a>
 
-<div class="main-landing-wrapper">
-    <div class="landing-page-form-wrapper">
-        <form>
-
-            <h4 class="card-body-heading">Sign In</h4>
-            <br>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="firstName" class="sr-only">First Name</label>
-                    <input type="text" class="form-control" id="firstName" placeholder="First name">
+                <div class="divider text-center">
+                      <span class="divider-content">Or</span>
                 </div>
-                <div class="form-group col-md-6">
-                    <label for="lastName" class="sr-only">First Name</label>
-                    <input type="text" class="form-control" id="lastName" placeholder="Last name">
+
+                <div class="form-group">
+                    <label for="user-email" class="sr-only">Email address</label>
+                    <input type="email" class="form-control" id="user-email" placeholder="Email address">
                 </div>
-            </div>
-            <div class="form-group">
-                <label for="mobileOrEmail" class="sr-only">Mobile number or email</label>
-                <input type="text" class="form-control" id="mobileOrEmail" placeholder="Mobile number or email">
-            </div>
-            <div class="form-group">
-                <label for="newPassword" class="sr-only">Password</label>
-                <input type="password" class="form-control" id="newPassword" placeholder="Password">
-            </div>
-
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                <label class="form-check-label" for="inlineRadio1">Employer</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                <label class="form-check-label" for="inlineRadio2">Freelancer</label>
-            </div>
-            <button type="submit" class="btn" id="sign-in-button">Sign in</button>
-            <a href="/survey" class="btn" id="explore-site-button" role="button" aria-pressed="true">Explore Site</a>
-        </form>
-    </div>
-
-
-    <div class="main-footer-wrapper">
-        <div class="pre-footer-wrapper">
-            <div class="container">
-                <p>
-                    Log in to Talentpool. Sign in to get instant access to jobs, salaries and reviews - posted anonymously by employees and job seekers. Don't have an account login? Sign up now.
-                </p>
-            </div>
-        </div>
-        <div class="footer-wrapper">
-            <div class="container footer">
-                <div class="card-group">
-                    <div class="card footer-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Careers</h5>
-                            <ul class="footer-list">
-                                <li>North Amnerica</li>
-                                <li>South America</li>
-                                <li>Asia</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card footer-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Talentpool</h5>
-                            <ul class="footer-list">
-                                <li>About Us</li>
-                                <li>Awards & Trends</li>
-                                <li>Blog</li>
-                                <li>Research</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card footer-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Employers</h5>
-                            <ul class="footer-list">
-                                <li>Get a Free Employer</li>
-                                <li>Account</li>
-                                <li>Employer Center</li>
-                                <li>Post a job/li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card footer-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Community</h5>
-                            <ul class="footer-list">
-                                <li>Help/Contact Us</li>
-                                <li>Guidelines</li>
-                                <li>Terms of Use</li>
-                                <li>Privacy & Cookies</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card footer-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Work With Us</h5>
-                            <ul class="footer-list">
-                                <li>Job Boards</li>
-                                <li>Advertisements</li>
-                                <li>Developers</li>
-                                <li>Careers</li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="form-group">
+                    <label for="user-password" class="sr-only">Password</label>
+                    <input type="password" class="form-control" id="user-password" placeholder="Password">
                 </div>
-            </div>
+                <a href="">
+                    <p class="text-right">Forgot Password?</p>
+                </a>
+
+                <a href="/survey" class="btn btn-block text-white" id="user-sign-in-button" role="button" aria-pressed="true">Sign In</a>
+
+                <div class="divider text-center"></div>
+                <p class="text-center">Dont have an account?<a href=""> Sign Up</a></p>
+
+            </form>
         </div>
 
+        <!-- FOOTER ------------------------------------------------------------------- -->
+        <div class="outter-footer-wrapper">
+
+            <div class="inner-footer-wrapper">
+                <div class="container text-center">
+                    <p class="text-inline text-grey">Log in to Talentpool. Sign in to get instant access to jobs, salaries and reviews - posted anonymously by employees and job seekers. Don't have an account login? Sign up now.</p>
+                </div>
+            </div>
+
+            <div class="inner-footer-wrapper">
+                <div class="container">
+                    <div class="card-group">
+                        <div class="card footer-card">
+                            <div class="card-body">
+                                <img src="images/logo-large.png">
+                            </div>
+                        </div>
+                        <div class="card footer-card">
+                            <div class="card-body">
+                                <h5 class="card-body-title">Talentpool</h5>
+                                <ul class="footer-list">
+                                    <a href=""><li>About Us</li></a>
+                                    <a href=""><li>Awards & Trends</li></a>
+                                    <a href=""><li>Blog</li></a>
+                                    <a href=""><li>Research</li></a>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card footer-card">
+                            <div class="card-body">
+                                <h5 class="card-body-title">Employers</h5>
+                                <ul class="footer-list">
+                                    <a href=""><li>Get a Free Employer</li></a>
+                                    <a href=""><li>Account</li></a>
+                                    <a href=""><li>Employer Center</li></a>
+                                    <a href=""><li>Post a job</li></a>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card footer-card">
+                            <div class="card-body">
+                                <h5 class="card-body-title">Community</h5>
+                                <ul class="footer-list">
+                                    <a href=""><li>Help/Contact Us</li></a>
+                                    <a href=""><li>Guidelines</li></a>
+                                    <a href=""><li>Terms of Use</li></a>
+                                    <a href=""><li>Privacy & Cookies</li></a>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card footer-card">
+                            <div class="card-body">
+                                <h5 class="card-body-title">Work With Us</h5>
+                                <ul class="footer-list">
+                                    <a href=""> <li>Job Boards</li></a>
+                                    <a href=""><li>Advertisements</li></a>
+                                    <a href=""><li>Developers</li></a>
+                                    <a href=""><li>Careers</li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inner-footer-wrapper-icons">
+                <div class="container">
+                    <div class="card-group">
+                        <div class="card footer-card">
+                            <div class="card-body">
+                                <p class="text-inline">Download the App</p>
+                                <a href=""><img src="images/footer-icons/android-icon.png" class="footer-icon" alt="instagram icon"></a>
+                                <a href=""><img src="images/footer-icons/apple-icon.png" class="footer-icon" alt="instagram icon"></a>
+                            </div>
+                        </div>
+                        <div class="card footer-card">
+                            <div class="card-body">
+                                <a href=""><img src="images/footer-icons/logo-icon.png" class="footer-icon" alt="logo icon"></a>
+                                <a href=""><img src="images/footer-icons/facebook-icon.png" class="footer-icon" alt="facebook icon"></a>
+                                <a href=""><img src="images/footer-icons/twitter-icon.png" class="footer-icon" alt="twitter icon"></a>
+                                <a href=""><img src="images/footer-icons/youtube-icon.png" class="footer-icon" alt="youtube icon"></a>
+                                <a href=""><img src="images/footer-icons/instagram-icon.png" class="footer-icon" alt="instagram icon"></a>
+                            </div>
+                        </div>
+                        <div class="card footer-card">
+                            <div class="card-body">
+                                <div class="dropdown float-right">
+                                    <button class="btn dropdown-toggle footer-dropdown-button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        United States
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">France</a>
+                                        <a class="dropdown-item" href="#">India</a>
+                                        <a class="dropdown-item" href="#">Ireland</a>
+                                        <a class="dropdown-item" href="#">China</a>
+                                        <a class="dropdown-item" href="#">United Kingdom</a>
+                                        <a class="dropdown-item" href="#">Canada</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inner-footer-wrapper">
+                <div class="container text-center">
+                    <p class="text-inline text-grey">Browse by:</p>
+                    <a href="" class="footer-link">Companies,</a>
+                    <a href="" class="footer-link">Jobs,</a>
+                    <a href="" class="footer-link">Locations,</a>
+                </div>
+            </div>
+
+            <div class="inner-footer-wrapper">
+                <div class="container text-center">
+                    <p class="text-inline text-grey">Copyright © 2017-2018, Talentpool, Inc. "Talentpool" and logo are proprietary trademarks of Talentpool, Inc.</p>
+                </div>
+            </div>
+
+        </div>
+
     </div>
-</div>
-
-
-
-
-
-
 
 <!-- Optional JavaScript -->
 <!-- Latest compiled and minified CSS & JS -->
