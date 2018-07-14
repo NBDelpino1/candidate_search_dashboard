@@ -176,10 +176,7 @@ a:not([href]):not([tabindex]) {
     padding:0;
 }
 
-.navbar-bottom {
-    background-color: #fff;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0,0,0,0.11);
-}
+
 
 
 #bottom-navbar-container {
@@ -199,14 +196,9 @@ a:not([href]):not([tabindex]) {
 
 
 
-/*NAVBAR FILTERS*/
-#navbar-search-field {
-    background: url('../images/search-icon.svg') no-repeat scroll 10px 10px;
-    padding-left:40px;
-    background-color: #fff;
-    border-color:#999999 !important;
-    min-width:300px;
-}
+
+
+
 
 .navbar-dropdown-button-xl {
     width:150px;
@@ -222,16 +214,8 @@ a:not([href]):not([tabindex]) {
     border-color:#E6E6E6 !important;
 }
 
-#navbar-location-field {
-    width:225px;
-    border-color:#999999 !important;
-}
 
-#navbar-search-button {
-    width:100px;
-    background-color: #4CAF50;
-    color: #fff;;
-}
+
 
 
 
@@ -499,17 +483,36 @@ a:not([href]):not([tabindex]) {
 
 
 
+/*NAVBAR ELEMENTS*/
+#navbar-search-field {
+    background: url('../images/search-icon.svg') no-repeat scroll 10px 10px;
+    padding-left:40px;
+    background-color: #fff;
+    border-color:#999999 !important;
+}
+
+#navbar-location-field {
+    border-color:#999999 !important;
+    background-color: #fff;
+}
 
 
+#jobs-dropdown {
+    width:100%;
+    background-color: #fff;
+    border-color:#999999 !important;
+}
 
+#navbar-search-button {
+    width:100%;
+    background-color: #4CAF50;
+    color: #fff;;
+}
 
-
-
-
-
-
-
-
+.navbar-bottom {
+    background-color: #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0,0,0,0.11);
+}
 
 
 

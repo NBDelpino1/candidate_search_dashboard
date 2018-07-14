@@ -57,32 +57,76 @@
 
     <!-- Bottom Navbar -->
 
-    <div class="navbar navbar-bottom sticky-top p-3">
-         <div class="container">
-             <form class="form-inline mx-auto">
-                 <label class="sr-only" for="navbar-search-field">Name</label>
-                 <input type="search" class="form-control mb-2 mr-sm-2 mb-sm-0" id="navbar-search-field" placeholder="Job Title, Keywords, or Company">
-                 <label class="sr-only" for="navbar-dropdown-button">Username</label>
-                 <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                     <div class="dropdown">
-                         <button class="btn dropdown-toggle navbar-dropdown-button-xl" type="button" id="jobs-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                             Jobs
-                         </button>
-                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                             <a class="dropdown-item" href="#">Companies</a>
-                             <a class="dropdown-item" href="#">Salaries</a>
-                             <a class="dropdown-item" href="#">Interviews</a>
-                         </div>
-                     </div>
-                 </div>
-                 <label class="sr-only" for="navbar-location-field">Username</label>
-                 <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                     <input type="text" class="form-control" id="navbar-location-field" placeholder="Location">
-                 </div>
-                 <button type="submit" class="btn" id="navbar-search-button">Search</button>
-             </form>
-         </div>
+    <div class="navbar-bottom sticky-top pt-3 pb-3 ">
+        <div class="container">
+            <form>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <!--SEARCH INPUT-->
+                        <label class="sr-only" for="navbar-search-field">Name</label>
+                        <input type="text" class="form-control" id="navbar-search-field" placeholder="Job Title, Keywords, or Company">
+                        <!--SEARCH INPUT-->
+                    </div>
+                    <div class="col-sm-2">
+                        <!--DROPDOWN-->
+                        <label class="sr-only" for="jobs-dropdown">Username</label>
+                        <div class="input-group mb-2 mr-sm-2 mb-sm-0 d-none d-sm-block">
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="jobs-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Jobs
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Companies</a>
+                                    <a class="dropdown-item" href="#">Salaries</a>
+                                    <a class="dropdown-item" href="#">Interviews</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--DROPDOWN-->
+                    </div>
+                    <div class="col-sm-3">
+                        <!--LOCATION INPUT-->
+                        <label class="sr-only" for="navbar-location-field">Name</label>
+                        <input type="text" class="form-control d-none d-sm-block" id="navbar-location-field" placeholder="Location">
+                        <!--LOCATION INPUT-->
+                    </div>
+                    <div class="col-sm-2">
+                        <!--SEARCH BUTTON-->
+                        <button type="submit" class="btn d-none d-sm-block" id="navbar-search-button">Search</button>
+                        <!--SEARCH BUTTON-->
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -153,18 +197,12 @@
                 </div>
             </div>
             <div class="navbar-nav">
-                <div  class="nav-item-div">
-                    <img src="images/heart.svg" class="nav-link-icon" alt="calender icon">
-                    <a class="nav-item nav-link nav-link-iconified" href="#">Calender</a>
-                </div>
-                <div class="nav-item-div">
-                    <img src="images/user.svg" class="nav-link-icon" alt="user icon">
-                    <a class="nav-item nav-link nav-link-iconified" href="#">Login</a>
-                </div>
-                <div class="nav-item-div">
-                    <img src="images/review-icon.svg" class="nav-link-icon" alt="chat icon">
-                    <a class="nav-item nav-link nav-link-iconified" href="#">Write Review</a>
-                </div>
+
+
+                <button type="submit" class="btn d-none d-sm-block" id="navbar-search-button">Search</button>
+
+
+
             </div>
     </nav>
 </div>
