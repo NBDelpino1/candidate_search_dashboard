@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <!-- Chosen jQuery Plugin (Make selects easier to manage) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:700" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link href="css/app-styles.css" rel="stylesheet">
+
+    <title>Hello, world!</title>
+</head>
+<body>
+
+    <!-- Top Navbar -->
+
+    <nav class="navbar navbar-top navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo.svg" alt="brand logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav mr-auto">
+                <a class="nav-item nav-link active" href="#">Jobs <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Company Reviews</a>
+                <a class="nav-item nav-link" href="#">Salaries</a>
+                <a class="nav-item nav-link" href="#">Interviews</a>
+                <a class="nav-item nav-link" href="#">Know Your Worth</a>
+            </div>
+            <div class="navbar-nav">
+                <div  class="nav-item-div">
+                    <img src="images/heart.svg" class="nav-link-icon" alt="calender icon">
+                    <a class="nav-item nav-link nav-link-iconified" href="#">Calender</a>
+                </div>
+                <div class="nav-item-div">
+                    <img src="images/user.svg" class="nav-link-icon" alt="user icon">
+                    <a class="nav-item nav-link nav-link-iconified" href="#">Login</a>
+                </div>
+                <div class="nav-item-div">
+                    <img src="images/review-icon.svg" class="nav-link-icon" alt="chat icon">
+                    <a class="nav-item nav-link nav-link-iconified" href="#">Write Review</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Bottom Navbar -->
+
+    <div class="navbar navbar-bottom sticky-top p-3">
+         <div class="container">
+             <form class="form-inline mx-auto">
+                 <label class="sr-only" for="navbar-search-field">Name</label>
+                 <input type="search" class="form-control mb-2 mr-sm-2 mb-sm-0" id="navbar-search-field" placeholder="Job Title, Keywords, or Company">
+                 <label class="sr-only" for="navbar-dropdown-button">Username</label>
+                 <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                     <div class="dropdown">
+                         <button class="btn dropdown-toggle navbar-dropdown-button-xl" type="button" id="jobs-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             Jobs
+                         </button>
+                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                             <a class="dropdown-item" href="#">Companies</a>
+                             <a class="dropdown-item" href="#">Salaries</a>
+                             <a class="dropdown-item" href="#">Interviews</a>
+                         </div>
+                     </div>
+                 </div>
+                 <label class="sr-only" for="navbar-location-field">Username</label>
+                 <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                     <input type="text" class="form-control" id="navbar-location-field" placeholder="Location">
+                 </div>
+                 <button type="submit" class="btn" id="navbar-search-button">Search</button>
+             </form>
+         </div>
+    </div>
+
+
+
+
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+
+            <div class="navbar-nav mr-auto">
+                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle navbar-dropdown-button-s" type="button" id="job-type" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Job Type
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Companies</a>
+                            <a class="dropdown-item" href="#">Salaries</a>
+                            <a class="dropdown-item" href="#">Interviews</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle navbar-dropdown-button-s" type="button" id="date-posted" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Date Posted
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Companies</a>
+                            <a class="dropdown-item" href="#">Salaries</a>
+                            <a class="dropdown-item" href="#">Interviews</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle navbar-dropdown-button-s" type="button" id="salary-range" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Salary Range
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Companies</a>
+                            <a class="dropdown-item" href="#">Salaries</a>
+                            <a class="dropdown-item" href="#">Interviews</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle navbar-dropdown-button-s" type="button" id="distance" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Distance
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Companies</a>
+                            <a class="dropdown-item" href="#">Salaries</a>
+                            <a class="dropdown-item" href="#">Interviews</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle navbar-dropdown-button-xs" type="button" id="navbar-dropdown-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            More
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Companies</a>
+                            <a class="dropdown-item" href="#">Salaries</a>
+                            <a class="dropdown-item" href="#">Interviews</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-nav">
+                <div  class="nav-item-div">
+                    <img src="images/heart.svg" class="nav-link-icon" alt="calender icon">
+                    <a class="nav-item nav-link nav-link-iconified" href="#">Calender</a>
+                </div>
+                <div class="nav-item-div">
+                    <img src="images/user.svg" class="nav-link-icon" alt="user icon">
+                    <a class="nav-item nav-link nav-link-iconified" href="#">Login</a>
+                </div>
+                <div class="nav-item-div">
+                    <img src="images/review-icon.svg" class="nav-link-icon" alt="chat icon">
+                    <a class="nav-item nav-link nav-link-iconified" href="#">Write Review</a>
+                </div>
+            </div>
+    </nav>
+</div>
+
+
+
+<!--<div class="d-flex justify-content-center">-->
+
+
+    <!--<div class="d-inline-flex p-2">I'm an inline flexbox container!</div>-->
+    <!--<div class="d-inline-flex p-2">I'm an inline flexbox container!</div>-->
+    <!--<div class="d-inline-flex p-2">I'm an inline flexbox container!</div>-->
+
+</div>
+
+
+<!-- Optional JavaScript -->
+<!-- Latest compiled and minified CSS & JS -->
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<!-- Chosen jQuery Plugin (Make selects easier to manage) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+
+<!-- My Scripts -->
+<script src="./app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+
+<svg width="31px" height="31px" viewBox="0 0 31 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-30">
+            <g id="Group-29" transform="translate(0.000000, 6.000000)" fill="#0BAA41" fill-rule="nonzero">
+                <path d="M13.5,24.9787234 L11.61,23.0797872 C4.59,16.8404255 0,12.6356383 0,7.48138298 C0,3.27659574 3.24,0.0212765957 7.425,0.0212765957 C9.72,0.0212765957 12.015,1.10638298 13.5,2.86968085 C14.985,1.10638298 17.28,0.0212765957 19.575,0.0212765957 C23.76,0.0212765957 27,3.27659574 27,7.48138298 C27,12.6356383 22.41,16.8404255 15.39,23.0797872 L13.5,24.9787234 Z" id="Shape"></path>
+            </g>
+            <rect id="Rectangle-12" stroke="#FFFFFF" fill="#EA7600" x="18.5" y="0.5" width="12" height="12" rx="3"></rect>
+            <text id="!" font-family="HiraKakuStd-W8, Hiragino Kaku Gothic Std" font-size="6" font-weight="600" letter-spacing="0.4000001" fill="#FFFFFF">
+                <tspan x="23" y="9">!</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
