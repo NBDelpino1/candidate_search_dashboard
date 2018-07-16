@@ -4,10 +4,27 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
-
-.navbar-top {
+.navbar-custom {
+    background-color: #fff;
     border-bottom:1px solid #BABABA;
 }
+#sign-in-form {
+    width:350px;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -305,14 +322,7 @@ a:not([href]):not([tabindex]) {
 }
 
 
-.form-wrapper {
-    width:300px;
-    margin:0 auto;
-    background-color: #fff;
-    padding:20px;
-    margin-top:40px;
-    margin-bottom:100px;
-}
+
 
 
 
@@ -406,10 +416,7 @@ a:not([href]):not([tabindex]) {
     color: #fff;
 }
 
-#sign-in-form {
-    width:350px;
-    background-color: #fff;
-}
+
 
 .btn-block {
     background-color: red;
@@ -581,6 +588,7 @@ a:not([href]):not([tabindex]) {
     -moz-osx-font-smoothing: grayscale;
     position: relative;
     background-color: #1961BF;
+    color: #fff;
     -webkit-transition-property: color;
     transition-property: color;
     -webkit-transition-duration: 0.3s;
@@ -728,89 +736,158 @@ a:not([href]):not([tabindex]) {
 
 #filters {
     background-color: #fff;
-    border-bottom:1px solid #999999;
+    border-bottom:1px solid #BABABA;
 }
-/*===============================================*/
-/*PARKING LOT*/
-/*.candidate-info-wrapper {*/
-/*max-width:400px;*/
-/*margin:0 auto;*/
-/*}*/
 
-/*#skillset-col {*/
-/*background-color: #F6F6F6;*/
-/*border:1px solid #f0f0f0;*/
-/*}*/
+/*TODO - MARK THIS IMPORTANT AS THIS IS THE BACKGROUND FOR THE COL WRAPPERS*/
+.left-test-col {
+    padding:0;
+    background-color: #EAEAEA;
+    height: 800px;
+    overflow: auto;
+}
 
-/*#questions-col {*/
-/*max-height: 80vh;*/
-/*overflow: scroll;*/
-/*}*/
+.right-test-col {
+    padding:0 0 0 5px;
+    background-color: #EAEAEA;
+    height: 800px;
+    overflow: auto;
+}
 
-/*col styling that Might be retired*/
-/*.media {*/
-/*background-color: #f0f0f0;*/
-/*padding: 10px;*/
-/*}*/
+.job-info-wrapper {
+    height:120px;
+    background-color: #fff;
+    padding:20px;
+    border-bottom:1px solid #BABABA;
+}
 
-/*input[type='radio']:after {*/
-/*width: 15px;*/
-/*height: 15px;*/
-/*border-radius: 15px;*/
-/*top: -2px;*/
-/*left: -1px;*/
-/*position: relative;*/
-/*background-color: #d1d3d1;*/
-/*content: '';*/
-/*display: inline-block;*/
-/*visibility: visible;*/
-/*border: 2px solid white;*/
-/*margin:20px 20px 0 0;*/
-/*}*/
+.job-details-job-title {
+    color: #3A5998;
+}
+.job-details-company-name {
 
-/*input[type='radio']:checked:after {*/
-/*width: 15px;*/
-/*height: 15px;*/
-/*border-radius: 15px;*/
-/*top: -2px;*/
-/*left: -1px;*/
-/*position: relative;*/
-/*background-color: #0277B5;*/
-/*content: '';*/
-/*display: inline-block;*/
-/*visibility: visible;*/
-/*border: 2px solid white;*/
-/*margin:20px 20px 0 0;*/
-/*}*/
+}
+.job-details-salary-est {
+    color: #0CAA41;
+}
 
-/*.rating-description {*/
-/*font-size:10px;*/
-/*}*/
+.job-details-days {
+    position: absolute;
+    bottom:0;
+    right:0;
+    padding:20px 20px 15px 20px;
+}
+
+.job-details-like {
+    position: absolute;
+    top:0;
+    right:0;
+    padding:30px 20px 15px 20px;
+    color: #0CAA41;
+}
 
 
-/*.star-rating-container {*/
-/*padding:10px;*/
-/*}*/
+.chosen-job-wrapper {
+    background-color: #fff;
+    padding:20px;
+    border-bottom:1px solid #BABABA;
+    position: relative;
+}
+
+#chosen-job-tabs {
+    background-color: #fff;
+    border-bottom:1px solid #BABABA
+}
+
+.chosen-job-nav-item {
+    margin-bottom:0 !important;
+}
+
+.chosen-job-nav-item:hover {
+    background-color: #F2F2F2;
+}
+
+.chosen-job-nav-link {
+    color: #3A5998 !important;
+    border:0 !important;
+}
 
 
-/*TODO: homepage styling TESTING THIS LAYOUT*/
 
-/*div.landing-wrapper {*/
-/*height: 100vh;*/
-/*position: relative;*/
-/*background: url('../images/bg-green.png') no-repeat center center fixed;*/
-/*-webkit-background-size: cover;*/
-/*-moz-background-size: cover;*/
-/*background-size: cover;*/
-/*-o-background-size: cover;*/
-/*}*/
+.job-link {
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left: 0;
+    z-index: 1;
+/* TODO: fixes overlap error in IE7/8,
+   make sure you have an empty gif */
+    background-image: url('empty.gif');
+}
 
-/*div.landing-wrapper .row {*/
-/*margin: 0;*/
-/*position: absolute;*/
-/*top: 50%;*/
-/*left: 50%;*/
-/*margin-right: -50%;*/
-/*transform: translate(-50%, -50%)*/
-/*}*/
-/*===============================================*/
+
+#job {
+    background-color: #fff;
+}
+
+.job-details-buttons-div {
+    position: absolute;
+    top:0;
+    right:0;
+    padding:30px 20px 15px 20px;
+    color: #0CAA41;
+    z-index: 1;
+}
+
+#pagination-wrapper {
+    background-color: #fff;
+    border-bottom:1px solid #BABABA
+}
+
+a.page-link {
+    border-color: #BABABA !important;
+    color: #3A5998;
+}
+
+#create-job-alert-wrapper {
+    background-color: #fff;
+    border-bottom:1px solid #BABABA;
+    padding:30px 5px 20px 5px;
+}
+
+#related-searches-wrapper {
+    background-color: #fff;
+}
+
+#related-companies-wrapper {
+    background-color: #fff;
+    border-bottom:1px solid #BABABA;
+}
+
+#col-left-footer {
+    background-color: #fff;
+    border-bottom:1px solid #BABABA;
+}
+
+#col-left-dropdown-button {
+    border-color: #BABABA;
+}
+
+#company-bg-img {
+    height:70px;
+    background: url('../images/temp-company-bg.png') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.job-tab-buttons-wrapper {
+    background-color:#EAEAEA;
+}
+
+.job-tab-button {
+    background-color: transparent;
+    color: #999999;
+}
