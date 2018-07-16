@@ -45,13 +45,13 @@ body {
 .sm-button {
     display: inline-block;
     width:49%;
-    background-color: #4CAF50;
-    border:1px solid #4CAF50;
+    /*background-color: #4CAF50;*/
+    /*border:1px solid #4CAF50;*/
 }
 
 .xs-button {
-    background-color: #0CAA41;
-    border:2px solid #0CAA41;
+    /*background-color: #0CAA41;*/
+    /*border:2px solid #0CAA41;*/
     color: #fff;
     width:100px;
     padding:3px;
@@ -96,7 +96,7 @@ body {
 input {
     font-size:13px !important;
     border-radius: 0 !important;
-    border:1px solid #999999 !important;
+    border-color: #999999;
     font-size:13px !important;
     line-height:30px !important;
 }
@@ -217,11 +217,7 @@ a:not([href]):not([tabindex]) {
 
 
 
-.card-body-title{
-    color:#EAEAEA;
-    margin-bottom:16px;
-    font-weight:900 !important;
-}
+
 
 
 .candidate-image-wrapper {
@@ -364,9 +360,7 @@ a:not([href]):not([tabindex]) {
     color: #EAEAEA;
 }
 
-.footer-link {
-    color: #EAEAEA;
-}
+
 
 .outter-footer-wrapper {
     background-color: #404040;
@@ -451,10 +445,10 @@ a:not([href]):not([tabindex]) {
     border-color:#3A5998;
 }
 
-#user-sign-in-button {
-    background-color: #1961BF;
-    border-color: #1961BF;
-}
+/*#user-sign-in-button {*/
+    /*background-color: #1961BF;*/
+    /*border-color: #1961BF;*/
+/*}*/
 
 
 
@@ -536,6 +530,206 @@ a:not([href]):not([tabindex]) {
 
 
 
+
+
+
+/*.col1 {*/
+    /*background-color: red;*/
+/*}*/
+/*.col2 {*/
+    /*background-color: green;*/
+/*}*/
+/*.col3 {*/
+    /*background-color: blue;*/
+/*}*/
+/*.col4 {*/
+    /*background-color: orange;*/
+/*}*/
+/*.col5 {*/
+    /*background-color: brown;*/
+/*}*/
+
+#footer-wrapper {
+    background-color: #404040;
+    color: #fff !important;
+}
+
+.footer-wrapper-inner {
+    border-top:1px solid #EAEAEA;
+}
+
+/*.card-body-title{*/
+    /*color:#EAEAEA;*/
+    /*margin-bottom:16px;*/
+    /*font-weight:900 !important;*/
+/*}*/
+
+
+
+
+
+
+
+/* BLUE BUTTON HOVER EFFECT */
+.blue-hover-effect {
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    background-color: #1961BF;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.blue-hover-effect:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #3A5998;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.blue-hover-effect:hover, .blue-hover-effect:focus, .blue-hover-effect:active {
+    color: white;
+}
+.blue-hover-effect:hover:before, .blue-hover-effect:focus:before, .blue-hover-effect:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+
+
+/* GREEN BUTTON HOVER EFFECT */
+.green-hover-effect {
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    background-color: #0CAA41;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.green-hover-effect:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #007549;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.green-hover-effect:hover, .green-hover-effect:focus, .green-hover-effect:active {
+    color: white;
+}
+.green-hover-effect:hover:before, .green-hover-effect:focus:before, .green-hover-effect:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+
+
+
+    /* GREEN BUTTON HOVER EFFECT */
+.blue-ghost-button {
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    border-color: #3A5998;
+    color: #3A5998;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.blue-ghost-button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #3A5998;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.blue-ghost-button:hover, .blue-ghost-button:focus, .blue-ghost-button:active {
+    color: white;
+}
+.blue-ghost-button:hover:before, .blue-ghost-button:focus:before, .blue-ghost-button:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+
+
+#large-dropdown{
+    width:370px !important;
+    padding:50px 30px 50px 30px;
+}
+
+#formControlRange {
+    width:90%;
+    margin:0 auto !important;
+}
+
+
+.filter-dropdown-button {
+    border-color: #E6E6E6;
+}
+
+
+#filters {
+    background-color: #fff;
+    border-bottom:1px solid #999999;
+}
 /*===============================================*/
 /*PARKING LOT*/
 /*.candidate-info-wrapper {*/
